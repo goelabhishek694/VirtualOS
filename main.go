@@ -70,7 +70,7 @@ func main() {
 		},myWindow)
 		// fileDialog.SetFilter(storage.NewExtensionFileFilter([]string{".txt"}))
 		fileDialog.Show()
-		log.Println("tapped install button")
+		log.Println("clicked install button")
 	})
 	grid := container.New(layout.NewGridLayout(2),searchBox,searchBtn)
 	
